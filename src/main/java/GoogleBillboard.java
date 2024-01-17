@@ -6,12 +6,9 @@ public class GoogleBillboard {
 		  for(int i = 2 ; i < e.length()-10;i++){
   		String digits = e.substring(i, 10+i);
 	  double dNum = Double.parseDouble(digits);
-  if(isPrime(dNum)== true){
-  System.out.println("Is this Prime: "+ digits+" " + isPrime(dNum));  //displays 7.182818284E9
-  }
-}
-		//System.out.println("Replace this string with your answer!");
-	}
+		  }
+		System.out.println(isPrime(dNum));
+	
 	
 	//Finish this function
 	public boolean isPrime(double dNum){
