@@ -7,7 +7,7 @@ public class GoogleBillboard {
   		String digits = e.substring(i, 10+i);
 	  double dNum = Double.parseDouble(digits);
 		  }
-		System.out.println(isPrime(dNum));
+		return (isPrime(dNum));
 	
 	
 	//Finish this function
