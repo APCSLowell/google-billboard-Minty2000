@@ -5,9 +5,9 @@ public class GoogleBillboard {
 	public static void main(final String[] args) {
 		  for(int i = 2 ; i < e.length()-10;i++){
   		String digits = e.substring(i, 10+i);
-	  double dNum = Double.parseDouble(digits
-					  if(isPrime(dNum)== true){
-  return( digits );  //displays 7.182818284E9
+	  double dNum = Double.parseDouble(digits);
+		 if(isPrime(dNum)== true){
+ 			 return( digits );  //displays 7.182818284E9
   }
 		  }
 		
